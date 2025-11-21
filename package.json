@@ -1,0 +1,25 @@
+{
+  "name": "nginx-tutorial",
+  "version": "1.0.0",
+  "description": "A simple Express server to demonstrate serving static files like Nginx",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "nginx",
+    "tutorial",
+    "express",
+    "static-server"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
